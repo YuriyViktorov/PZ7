@@ -35,7 +35,6 @@ void Print2DArr(int[,] arr)
         for (int j = 0; j < arr.GetLength(1); j++)
         {
             Console.Write(arr[i, j] + "\t");
-            //Console.ResetColor(); 
         }
         Console.WriteLine("");
     }
